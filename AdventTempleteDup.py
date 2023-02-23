@@ -39,7 +39,7 @@ for sample in SAMPLE_LIST:
 for year in range(2015,CURRENT_YEAR+1):
     DirLevel1="Advent_of_code_"+str(year)
     create_directory(MAIN_ROOT+"/"+DirLevel1)
-    for date in range (1,25):
+    for date in range (1,25+1):
         DirLevel2=DirLevel1+"_"+str(date)
         create_directory(MAIN_ROOT+"/"+DirLevel1+"/"+DirLevel2)
         FILENAME=DirLevel2+"output."
